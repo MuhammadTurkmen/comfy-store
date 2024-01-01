@@ -22,6 +22,7 @@ const getStorageItem = (item) => {
   if(storageItem) {
     storageItem = JSON.parse(localStorage.getItem(item))
   }
+  storageItem = []
 }
 const setStorageItem = (name, item) => {
   localStorage.setItem(name, JSON.stringify(item))
