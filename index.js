@@ -10,7 +10,10 @@ import { getElement } from './src/utils.js';
 
 const init = async () => {
     const products = await fetchProducts()
-    console.log(products);
+    if(products) {
+        // add products to the store
+        setupStore(products)
+    }
 }
 
 window.addEventListener('DOMContentLoaded', init)
