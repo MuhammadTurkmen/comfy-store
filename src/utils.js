@@ -17,7 +17,9 @@ const getElement = (selection) => {
 
 const formatPrice = () => {}
 
-const getStorageItem = () => {}
+const getStorageItem = () => {
+  let storageItem = localStorage.getItem(item)
+}
 const setStorageItem = (name, item) => {
   localStorage.setItem(name, JSON.stringify(item))
 }
