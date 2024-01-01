@@ -5,6 +5,7 @@ const fetchProducts = async () => {
     if(response) {
         return response.json()
     }
+    return response
 };
 
 export default fetchProducts;
