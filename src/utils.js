@@ -18,7 +18,9 @@ const getElement = (selection) => {
 const formatPrice = () => {}
 
 const getStorageItem = () => {}
-const setStorageItem = (name, item) => {}
+const setStorageItem = (name, item) => {
+  localStorage.setItem(name, JSON.stringify(item))
+}
 
 export {
   allProductsUrl,
