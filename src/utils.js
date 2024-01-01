@@ -19,6 +19,9 @@ const formatPrice = () => {}
 
 const getStorageItem = () => {
   let storageItem = localStorage.getItem(item)
+  if(storageItem) {
+    storageItem = JSON.parse(localStorage.getItem(item))
+  }
 }
 const setStorageItem = (name, item) => {
   localStorage.setItem(name, JSON.stringify(item))
