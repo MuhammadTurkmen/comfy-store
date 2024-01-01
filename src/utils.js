@@ -18,7 +18,7 @@ const getElement = (selection) => {
 const formatPrice = () => {}
 
 const getStorageItem = () => {}
-const setStorageItem = () => {}
+const setStorageItem = (name, item) => {}
 
 export {
   allProductsUrl,
