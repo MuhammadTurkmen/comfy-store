@@ -1,5 +1,5 @@
 import { getStorageItem, setStorageItem } from './utils.js';
-let store = [];
+let store = getStorageItem('store');
 const setupStore = (products) => {
     store = products.map((product) => {
         const {id, fields:{featured, name, price, company, colors, image: img}} = product
