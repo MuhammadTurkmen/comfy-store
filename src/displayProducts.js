@@ -12,13 +12,13 @@ const display = (products, element) => {
                                 <a href="product.html?id=${id}" class="product-icon">
                                 <i class="fas fa-search"></i>
                                 </a>
-                                <button class="product-cart-btn product-icon" data-id="1">
+                                <button class="product-cart-btn product-icon" data-id="${id}">
                                 <i class="fas fa-shopping-cart"></i>
                                 </button>
                             </div>
                         </div>
                         <footer>
-                            <p class="product-name">name</p>
+                            <p class="product-name">${name}</p>
                             <h4 class="product-price">$9.99</h4>
                         </footer>
                 </article>`
