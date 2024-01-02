@@ -8,6 +8,7 @@ const setupSearch = (store) => {
         if(value) {
             const newStore = store.filter((product) => { 
                 let {name} = product
+                name = name.toLowerCase()
             }) 
         }  
         else { 
