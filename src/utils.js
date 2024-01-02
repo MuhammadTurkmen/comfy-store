@@ -19,7 +19,7 @@ const formatPrice = (price) => {
   let formatedPrice = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD'
-  })
+  }).format(price)
   return formatedPrice
 }
 
