@@ -7,9 +7,9 @@ const setupSearch = (store) => {
         const value = nameInput.value
         if(value) {
             const newStore = store.filter((product) => {
-                
+
             })
-        }
+        } 
         else {
             display(store, getElement('.products-container'))
         }
