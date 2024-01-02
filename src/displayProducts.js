@@ -23,6 +23,9 @@ const display = (products, element) => {
                         </footer>
                 </article>`
     }).join('')
+    element.addEventListener('click', function() {
+        
+    })
 };
 
 export default display;
