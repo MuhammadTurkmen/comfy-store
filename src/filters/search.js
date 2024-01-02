@@ -7,7 +7,7 @@ const setupSearch = (store) => {
         const value = nameInput.value
         if(value) {
             const newStore = store.filter((product) => {
- 
+                let {name} = product
             }) 
         }  
         else { 
