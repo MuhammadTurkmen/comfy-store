@@ -20,7 +20,7 @@ const formatPrice = (price) => {
     style: 'currency',
     currency: 'USD'
   })
-  return formatPrice
+  return formatedPrice
 }
 
 const getStorageItem = (item) => {
