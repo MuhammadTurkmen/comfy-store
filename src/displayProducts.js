@@ -24,7 +24,7 @@ const display = (products, element) => {
                 </article>`
     }).join('')
     element.addEventListener('click', function() {
-        
+        const parent = e.target.parentElement
     })
 };
 
