@@ -16,3 +16,5 @@ import { getElement } from '../utils.js';
 const loading = getElement('.page-loading')
 
 display(store, getElement('.products-container'))
+
+loading.style.display = 'none'
