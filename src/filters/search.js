@@ -6,7 +6,9 @@ const setupSearch = (store) => {
     form.addEventListener('keyup', function() {
         const value = nameInput.value
         if(value) {
-
+            const newStore = store.filter((product) => {
+                
+            })
         }
         else {
             display(store, getElement('.products-container'))
