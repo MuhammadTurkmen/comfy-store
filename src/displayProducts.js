@@ -22,7 +22,7 @@ const display = (products, element) => {
                             <h4 class="product-price">$9.99</h4>
                         </footer>
                 </article>`
-    })
+    }).join('')
 };
 
 export default display;
