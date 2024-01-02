@@ -4,7 +4,7 @@ const display = (products, element) => {
     // display products
     element.innerHTML = products.map((product) => {
         const {id, name, image, price} = product
-        return `<!-- <article class="product">
+        return `<article class="product">
                         <div class="product-container">
                             <img src="./images/main-bcg.jpeg" class="product-img img" alt="">
 
@@ -21,7 +21,7 @@ const display = (products, element) => {
                             <p class="product-name">name</p>
                             <h4 class="product-price">$9.99</h4>
                         </footer>
-                    </article> -->`
+                </article>`
     })
 };
 
