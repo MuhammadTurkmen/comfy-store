@@ -9,7 +9,7 @@ const setupSearch = (store) => {
             const newStore = store.filter((product) => {
  
             }) 
-        } 
+        }  
         else {
             display(store, getElement('.products-container'))
         } 
