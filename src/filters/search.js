@@ -10,7 +10,7 @@ const setupSearch = (store) => {
  
             }) 
         }  
-        else {
+        else { 
             display(store, getElement('.products-container'))
         } 
     })
