@@ -12,7 +12,7 @@ const setupSearch = (store) => {
         } 
         else {
             display(store, getElement('.products-container'))
-        }
+        } 
     })
 };
    
