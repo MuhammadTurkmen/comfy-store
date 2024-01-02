@@ -5,6 +5,9 @@ const setupSearch = (store) => {
     const nameInput = getElement('.search-input')
     form.addEventListener('keyup', function() {
         const value = nameInput.value
+        if(value) {
+            
+        }
     })
 };
 
