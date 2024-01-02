@@ -25,7 +25,9 @@ const display = (products, element) => {
     }).join('')
     element.addEventListener('click', function() {
         const parent = e.target.parentElement
-        if(parent.classList.contains('product-cart-btn'))
+        if(parent.classList.contains('product-cart-btn')) {
+            addToCart(parent.dataset.id)
+        }
     })
 };
 
