@@ -16,7 +16,7 @@ const setupPrice = (store) => {
 
 
     priceInput.addEventListener('input', function() {
-        
+        const value = priceInput.value
     })
 };
 
