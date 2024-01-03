@@ -13,6 +13,11 @@ const setupPrice = (store) => {
     priceInput.max = maxPrice
     priceInput.min = 0
     priceValue.textContent = `value : $${maxPrice}`
+
+
+    priceInput.addEventListener('input', function() {
+        
+    })
 };
 
 export default setupPrice;
