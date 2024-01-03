@@ -9,6 +9,8 @@ const setupPrice = (store) => {
     let maxPrice = store.map((product) => product.price)
     maxPrice = Math.max(...maxPrice)
     maxPrice = Math.ceil(maxPrice / 100)
+    priceInput.value = maxPrice
+    priceInput.max = maxPrice
 };
 
 export default setupPrice;
