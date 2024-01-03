@@ -19,6 +19,7 @@ const setupPrice = (store) => {
         const value = parseInt(priceInput.value)
         priceValue.textContent = `value : $${value}`
         let newStore = store.filter((product) => product.price / 100 <= value) 
+        display(newStore, getElement('.products-container'))
     })
 };
 
