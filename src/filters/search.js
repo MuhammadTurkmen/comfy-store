@@ -16,7 +16,9 @@ const setupSearch = (store) => {
             display(newStore, getElement('.products-container'))
             if(newStore,length < 1) {
                 const products = getElement('.products-container')
-                products.innerHTML = `<h3 class="filter-error"></h3>`
+                products.innerHTML = `<h3 class="filter-error">
+                    sorry, no products matched your search
+                </h3>`
             }
         }  
         
