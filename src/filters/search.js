@@ -9,7 +9,9 @@ const setupSearch = (store) => {
             const newStore = store.filter((product) => { 
                 let {name} = product
                 name = name.toLowerCase()
-                if(name.startWith(value))
+                if(name.startWith(value)) {
+                    return product
+                }
             }) 
         }  
         else { 
