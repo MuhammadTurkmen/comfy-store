@@ -11,7 +11,7 @@ const setupCompanies = (store) => {
         const element = e.target
         if(element.classList.contains('company-btn')) {
             let newStore = []
-            
+            if(element.textContent === 'all')
         }
     })
 };
