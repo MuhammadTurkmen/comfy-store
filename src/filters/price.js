@@ -20,6 +20,10 @@ const setupPrice = (store) => {
         priceValue.textContent = `value : $${value}`
         let newStore = store.filter((product) => product.price / 100 <= value) 
         display(newStore, getElement('.products-container'))
+        if(newStore.length < 1) {
+            const products = getElement('.products-container')
+            products.innerHTML = `<h3>sorry, no products matched you search</h3>`
+        }
     })
 };
 
