@@ -18,7 +18,7 @@ const setupPrice = (store) => {
     priceInput.addEventListener('input', function() {
         const value = parseInt(priceInput.value)
         priceValue.textContent = `value : $${value}`
-        let newStore = store.filter((product) => )
+        let newStore = store.filter((product) => product.price)
     })
 };
 
