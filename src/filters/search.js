@@ -13,7 +13,9 @@ const setupSearch = (store) => {
                     return product
                 }
             }) 
+            display(newStore, getElement('.products-container'))
         }  
+        
         else { 
             display(store, getElement('.products-container'))
         } 
