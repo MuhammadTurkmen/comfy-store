@@ -12,6 +12,7 @@ const setupPrice = (store) => {
     priceInput.value = maxPrice
     priceInput.max = maxPrice
     priceInput.min = 0
+    priceValue.textContent = `value : $${maxPrice}`
 };
 
 export default setupPrice;
