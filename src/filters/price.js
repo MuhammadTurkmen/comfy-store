@@ -6,6 +6,7 @@ const setupPrice = (store) => {
     const priceValue = getElement('.price-value')
 
     // setup filter
+    let maxPrice = store.map((product) => product.price)
 };
 
 export default setupPrice;
