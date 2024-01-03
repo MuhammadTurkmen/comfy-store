@@ -7,6 +7,7 @@ const setupCompanies = (store) => {
     companiesDOM.innerHTML = companies.map((company) =>  {
         return `<button class="company-btn">${company}</button>`
     }).join('')
+    companiesDOM.addEventListener
 };
 
 export default setupCompanies;
