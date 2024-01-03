@@ -14,6 +14,10 @@ const setupCompanies = (store) => {
             if(element.textContent === 'all') {
                 newStore = [...store]
             }
+            else{
+
+            }
+            display(newStore, getElement('.products-container'))
         }
     })
 };
