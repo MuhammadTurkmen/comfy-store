@@ -18,7 +18,7 @@ const setupPrice = (store) => {
     priceInput.addEventListener('input', function() {
         const value = parseInt(priceInput.value)
         priceValue.textContent = `value : $${value}`
-        let newStore = store.filter((product) => product.price / 100)
+        let newStore = store.filter((product) => product.price / 100 <= value) 
     })
 };
 
