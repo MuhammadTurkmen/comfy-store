@@ -15,7 +15,7 @@ const setupCompanies = (store) => {
                 newStore = [...store]
             }
             else{
-
+                newStore = store.filter((product) => product.company === e.target)
             }
             display(newStore, getElement('.products-container'))
         }
