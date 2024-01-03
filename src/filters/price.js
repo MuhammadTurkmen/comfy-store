@@ -11,6 +11,7 @@ const setupPrice = (store) => {
     maxPrice = Math.ceil(maxPrice / 100)
     priceInput.value = maxPrice
     priceInput.max = maxPrice
+    priceInput.min = 0
 };
 
 export default setupPrice;
