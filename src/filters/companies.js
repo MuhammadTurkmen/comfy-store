@@ -4,6 +4,9 @@ import display from '../displayProducts.js';
 const setupCompanies = (store) => {
     let companies = ['all',...new Set(store.map((product) => product.company))]
     const companiesDOM = getElement('.companies')
+    companiesDOM.innerHTML = companies.map((company) =>  {
+        return `<button class="company-btn">all</button>`
+    })
 };
 
 export default setupCompanies;
