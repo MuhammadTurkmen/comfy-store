@@ -41,6 +41,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             colors.forEach((color) => {
                 const span = document.createElement('span')
                 span.classList.add('product-color')
+                span.style.backgroundColor = `${color}`
             })
 
             // set values
