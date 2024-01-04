@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', async function() {
         if(response.status >= 200 && response.status <= 299) {
             const product = await response.json()
             // grab data 
-            const {id, fields} = 
+            const {id, fields} = product
 
 
 
