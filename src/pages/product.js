@@ -37,6 +37,7 @@ window.addEventListener('DOMContentLoaded', async function() {
 
             // set values
             document.title = `${name.toUpperCase()} | comfy`
+            pageTitleDOM.textContent = `Home / ${name}`
 
 
         }
