@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', async function() {
         const response = await fetch(`${singleProductUrl}${urlID}`)
         
     } catch (error) {
-        
+        console.log(error);
     }
 
 
