@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             titleDOM.textContent = name
             companyDOM.textContent = `by ${company}`
             priceDOM.innerHTML = formatPrice(price)
-
+            descDOM.textContent = description
 
             // set values
             document.title = `${name.toUpperCase()} | comfy`
