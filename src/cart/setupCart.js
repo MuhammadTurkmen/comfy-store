@@ -20,3 +20,7 @@ let cart = getStorageItem('cart')
 export const addToCart = (id) => {
   openCart()
 };
+
+const init = () => {
+  
+}
