@@ -15,7 +15,7 @@ const addToCartDOM = ({id, name, price, image, amount}) => {
               <button class="cart-item-increase-btn">
                 <i class="fas fa-chevron-up"></i>
               </button>
-              <p class="cart-item-amount">1</p>
+              <p class="cart-item-amount">${amount}</p>
               <button class="cart-item-decrease-btn">
                 <i class="fas fa-chevron-down"></i>
               </button>
