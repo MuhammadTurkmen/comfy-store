@@ -38,6 +38,9 @@ window.addEventListener('DOMContentLoaded', async function() {
             companyDOM.textContent = `by ${company}`
             priceDOM.innerHTML = formatPrice(price)
             descDOM.textContent = description
+            colors.forEach((color) => {
+                const span = document.createElement('span')
+            })
 
             // set values
             document.title = `${name.toUpperCase()} | comfy`
