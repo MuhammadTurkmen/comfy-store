@@ -24,3 +24,5 @@ export const addToCart = (id) => {
 const init = () => {
   
 }
+
+init()
