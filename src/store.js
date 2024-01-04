@@ -8,5 +8,7 @@ const setupStore = (products) => {
     })
     setStorageItem('store', store)
 };
-const findProduct = () => {};
+const findProduct = (id) => {
+    let product = store.find(id)
+};
 export { store, setupStore, findProduct };
