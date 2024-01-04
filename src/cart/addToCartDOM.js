@@ -5,7 +5,7 @@ const addToCartDOM = ({id, name, price, image, amount}) => {
     article.classList.add('cart-item')
     article.setAttribute('data-id', id)
     article.innerHTML = `
-            <img src="${image}" class="cart-item-img" alt="name">
+            <img src="${image}" class="cart-item-img" alt="${name}">
             <div>
               <h4 class="cart-item-name">high-back bench</h4>
               <p class="cart-item-price">$13.99</p>
