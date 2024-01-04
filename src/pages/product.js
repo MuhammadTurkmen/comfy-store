@@ -28,6 +28,10 @@ window.addEventListener('DOMContentLoaded', async function() {
         const response = await fetch(`${singleProductUrl}${urlID}`)
         if(response.status >= 200 && response.status <= 299) {
             const product = await response.json()
+            // grab data 
+
+
+
         }
         else {
             console.log(response.status, response.statusText);
