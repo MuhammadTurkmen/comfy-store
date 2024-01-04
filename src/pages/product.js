@@ -19,7 +19,7 @@ const descDOM = getElement('.single-product-desc');
 const cartBtn = getElement('.addToCartBtn');
 
 // cart product
-// let productID;
+let productID;
 
 // show product when page loads
 window.addEventListener('DOMContentLoaded', async function() {
@@ -30,6 +30,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             const product = await response.json()
             // grab data 
             const {id, fields} = product
+            productID = id
 
 
 
