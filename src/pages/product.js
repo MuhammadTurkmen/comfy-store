@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             console.log(response.status, response.statusText);
             centerDOM.innerHTML = `
                 <div>
-                    <h3 class="error">
+                    <h3 class="error">sorry, something went wrong
                 </div>
             `
         }
