@@ -40,6 +40,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             descDOM.textContent = description
             colors.forEach((color) => {
                 const span = document.createElement('span')
+                span.classList.add('product-color')
             })
 
             // set values
