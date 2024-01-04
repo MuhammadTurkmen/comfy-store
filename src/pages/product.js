@@ -35,6 +35,8 @@ window.addEventListener('DOMContentLoaded', async function() {
             const {name, company, price, colors, description} = fields
             const image = fields.image[0].thumbnails.large.url
 
+            // set values
+
 
 
         }
