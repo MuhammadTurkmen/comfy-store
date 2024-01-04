@@ -11,6 +11,7 @@ import addToCartDOM from './addToCartDOM.js';
 // set items
 
 const cartItemCountDOM = getElement('.cart-item-count')
+const cartItemsDOM = getElement('.cart-items')
 
 
 export const addToCart = (id) => {
