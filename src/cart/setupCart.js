@@ -18,7 +18,7 @@ const cartTotalDOM = getElement('.cart-total')
 let cart = getStorageItem('cart')
 
 export const addToCart = (id) => {
-  
+  let item = cart.find((cartItem) => cartItem.id === id)
   
   // more stuff comming up
   openCart()
