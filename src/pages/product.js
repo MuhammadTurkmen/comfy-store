@@ -23,5 +23,6 @@ const cartBtn = getElement('.addToCartBtn');
 
 // show product when page loads
 window.addEventListener('DOMContentLoaded', async function() {
-    
+    const urlID = this.window.location.search
+    loading.style.display = 'none'
 })
