@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             centerDOM.innerHTML = `
                 <div>
                     <h3 class="error">sorry, something went wrong</h3>
-                    <a herf="index.html" class="btn"></a>
+                    <a herf="index.html" class="btn">back home </a>
                 </div>
             `
         }
