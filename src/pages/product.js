@@ -69,5 +69,5 @@ window.addEventListener('DOMContentLoaded', async function() {
 })
 
 cartBtn.addEventListener('click', function() {
-    addToCart()
+    addToCart(productID)
 })
