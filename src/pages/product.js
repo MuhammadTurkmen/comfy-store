@@ -31,6 +31,11 @@ window.addEventListener('DOMContentLoaded', async function() {
         }
         else {
             console.log(response.status, response.statusText);
+            centerDOM.innerHTML = `
+                <div>
+                    <h3 class="error">
+                </div>
+            `
         }
     } catch (error) {
         console.log(error);
