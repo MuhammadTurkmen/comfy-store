@@ -33,6 +33,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             productID = id
 
             const {name, company, price, colors, description} = fields
+            const image = fields.image[0].thumbnails.large.url
 
 
 
