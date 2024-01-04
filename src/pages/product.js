@@ -29,6 +29,9 @@ window.addEventListener('DOMContentLoaded', async function() {
         if(response.status >= 200 && response.status <= 299) {
             const product = await response.json()
         }
+        else {
+            console.log(response.status, response.statusText);
+        }
     } catch (error) {
         console.log(error);
     }
