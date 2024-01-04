@@ -35,6 +35,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             const {name, company, price, colors, description} = fields
             const image = fields.image[0].thumbnails.large.url
             titleDOM.textContent = name
+            companyDOM.textContent = `by ${companys}`
 
             // set values
             document.title = `${name.toUpperCase()} | comfy`
