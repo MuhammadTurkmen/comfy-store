@@ -23,6 +23,7 @@ export const addToCart = (id) => {
     let product = findProduct(id)
     // add item to the cart
     product = {...product, amount: 1}
+    cart = [...cart, product]
   }
   else {
     // update value
