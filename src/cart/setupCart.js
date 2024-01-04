@@ -19,7 +19,12 @@ let cart = getStorageItem('cart')
 
 export const addToCart = (id) => {
   let item = cart.find((cartItem) => cartItem.id === id)
-  
+  if(!item) {
+
+  }
+  else {
+    // update value
+  }
   // more stuff comming up
   openCart()
 };
