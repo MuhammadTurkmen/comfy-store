@@ -12,7 +12,7 @@ import addToCartDOM from './addToCartDOM.js';
 
 const cartItemCountDOM = getElement('.cart-item-count')
 const cartItemsDOM = getElement('.cart-items')
-
+const cartTotalDOM = getElement('.cart-total')
 
 export const addToCart = (id) => {
   openCart()
