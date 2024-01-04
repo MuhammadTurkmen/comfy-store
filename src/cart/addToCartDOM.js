@@ -7,7 +7,7 @@ const addToCartDOM = ({id, name, price, image, amount}) => {
     article.innerHTML = `
             <img src="${image}" class="cart-item-img" alt="${name}">
             <div>
-              <h4 class="cart-item-name">high-back bench</h4>
+              <h4 class="cart-item-name">${name}</h4>
               <p class="cart-item-price">$13.99</p>
               <button class="cart-item-remove-btn">remove</button>
             </div>
