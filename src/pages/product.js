@@ -32,6 +32,8 @@ window.addEventListener('DOMContentLoaded', async function() {
             const {id, fields} = product
             productID = id
 
+            const {name, company, price, colors, description} = fields
+
 
 
         }
