@@ -41,7 +41,9 @@ export const addToCart = (id) => {
 };
 
 function displayCartItemCount() {
-  
+  const amount = cart.reduce((total, cartItem) => {
+
+  },0)
 }
 const init = () => {
   
