@@ -59,6 +59,7 @@ const init = () => {
   // display total 
   displayCartTotal()
   // add all cart items to the dom
+  // setup cart fanctionality
 }
 
 init()
