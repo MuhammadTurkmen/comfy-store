@@ -53,8 +53,23 @@ function displayCartTotal() {
   },0)
   cartTotalDOM.textContent = `Total : ${formatPrice(total)}`
 }
-const init = () => {
+function displayCartItemsDOM() {
+  cart.forEach((cartItem) => {
+    addToCartDOM(cartItem)
+  })
+}
+function setupCartFunctionality() {
   
+}
+const init = () => {
+  // display amount of cart items 
+  displayCartItemCount()
+  // display total 
+  displayCartTotal()
+  // add all cart items to the dom
+  displayCartItemsDOM()
+  // setup cart fanctionality
+  setupCartFunctionality()
 }
 
 init()
