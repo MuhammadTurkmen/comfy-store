@@ -54,7 +54,7 @@ function displayCartTotal() {
   cartTotalDOM.textContent = `Total : ${formatPrice(total)}`
 }
 const init = () => {
-  
+  // display amount of cart items
 }
 
 init()
