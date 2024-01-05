@@ -83,6 +83,7 @@ function setupCartFunctionality() {
 
     displayCartItemCount()
     displayCartTotal()
+    setStorageItem('cart', cart)
   })
 }
 const init = () => {
