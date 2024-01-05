@@ -55,6 +55,7 @@ function displayCartTotal() {
 }
 const init = () => {
   // display amount of cart items
+  displayCartItemCount()
 }
 
 init()
