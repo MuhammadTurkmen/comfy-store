@@ -42,14 +42,14 @@ export const addToCart = (id) => {
 
 function displayCartItemCount() {
   const amount = cart.reduce((total, cartItem) => {
-    return total += cartItem.amount
+    return (total += cartItem.amount)
   },0)
   cartItemsDOM.textContent = amount
 }
 
 function displayCartTotal() {
   let total = cart.reduce((total, cartItem) => {
-
+    return total += cartItem.price * cartItem.amount
   },0)
 }
 const init = () => {
