@@ -83,7 +83,7 @@ function setupCartFunctionality() {
     const parent = e.target.parentElement
     const id = e.target.dataset.id
     const parentID = e.target.parentElement.dataset.id
-    // remove
+    // remove 
     if (element.classList.contains('cart-item-remove-btn')) {
       removeItem(id)
       // parent.parentElement.remove()
