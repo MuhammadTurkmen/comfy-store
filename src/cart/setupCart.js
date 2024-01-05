@@ -64,7 +64,8 @@ function increaseAmount(id) {
   let newAmount 
   cart = cart.map((cartItem) => {
     if(cartItem.id === id) {
-      cartItem = {...cartItem, amount: cartItem.amount + 1}
+      newAmount = cartItem.amount + 1
+      cartItem = {...cartItem, amount: newAmount}
     }
     return cartItem
   })
