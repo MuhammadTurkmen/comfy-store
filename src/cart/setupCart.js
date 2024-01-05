@@ -75,7 +75,9 @@ function increaseAmount(id) {
   return newAmount
 }
 function setupCartFunctionality() {
-  cartItemsDOM.addEventListener('click',)
+  cartItemsDOM.addEventListener('click', function(e) {
+
+  })
 }
 const init = () => {
   // display amount of cart items 
