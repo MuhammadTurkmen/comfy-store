@@ -55,7 +55,7 @@ function displayCartTotal() {
 }
 function displayCartItemsDOM() {
   cart.forEach((cartItem) => {
-
+    addToCart(cartItem)
   })
 }
 function setupCartFunctionality() {
