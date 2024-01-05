@@ -53,6 +53,7 @@ function displayCartTotal() {
   },0)
   cartTotalDOM.textContent = `Total : ${formatPrice(total)}`
 }
+function setupCartFunctionality
 const init = () => {
   // display amount of cart items
   displayCartItemCount()
