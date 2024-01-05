@@ -40,6 +40,9 @@ export const addToCart = (id) => {
   openCart()
 };
 
+function displayCartItemCount() {
+  
+}
 const init = () => {
   
 }
