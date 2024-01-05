@@ -59,6 +59,10 @@ function displayCartItemsDOM() {
     addToCartDOM(cartItem)
   })
 }
+
+function increaseAmount(id) {
+
+}
 function setupCartFunctionality() {
   
 }
