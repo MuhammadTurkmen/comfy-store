@@ -82,6 +82,7 @@ function setupCartFunctionality() {
     const parentID = e.target.parentElement.dataset.id
 
     displayCartItemCount()
+    displayCartTotal()
   })
 }
 const init = () => {
