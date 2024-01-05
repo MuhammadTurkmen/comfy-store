@@ -31,6 +31,7 @@ export const addToCart = (id) => {
     // update value
   }
   // add one to the item count
+  // display cart totals
   // more stuff comming up
   openCart()
 };
