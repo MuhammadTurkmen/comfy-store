@@ -44,7 +44,7 @@ function displayCartItemCount() {
   const amount = cart.reduce((total, cartItem) => {
     return total += cartItem.amount
   },0)
-  cartItemsDOM
+  cartItemsDOM.textContent = amount
 }
 const init = () => {
   
