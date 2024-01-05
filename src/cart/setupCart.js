@@ -89,6 +89,7 @@ function setupCartFunctionality() {
       // parent.parentElement.remove()
       element.parentElement.parentElement.remove()
     }
+    if(parent.classList.contains('cart-item-increase-btn'))
     // increase
     // decrease
     displayCartItemCount()
