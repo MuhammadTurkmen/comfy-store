@@ -30,6 +30,7 @@ export const addToCart = (id) => {
   else {
     // update value
   }
+  // add one to the item count
   // more stuff comming up
   openCart()
 };
