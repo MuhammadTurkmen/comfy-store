@@ -29,6 +29,7 @@ export const addToCart = (id) => {
   }
   else {
     // update value
+    const amount = increaseAmount(id)
   }
   // add one to the item count
   displayCartItemCount()
