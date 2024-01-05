@@ -86,6 +86,7 @@ function setupCartFunctionality() {
     // remove
     if (element.classList.contains('cart-item-remove-btn')) {
       removeItem(id)
+      parent.parentElement.remove()
     }
     // increase
     // decrease
