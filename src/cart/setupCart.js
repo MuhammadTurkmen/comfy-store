@@ -63,6 +63,9 @@ function displayCartItemsDOM() {
   })
 }
 
+function removeItem(id) {
+  cart = cart.filter((cartItem) => cartItem.id !== id)
+}
 function increaseAmount(id) {
   let newAmount 
   cart = cart.map((cartItem) => {
