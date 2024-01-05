@@ -76,7 +76,7 @@ function increaseAmount(id) {
 }
 function setupCartFunctionality() {
   cartItemsDOM.addEventListener('click', function(e) {
-
+    const element = e.target
   })
 }
 const init = () => {
