@@ -62,7 +62,10 @@ function displayCartItemsDOM() {
 
 function increaseAmount(id) {
   cart = cart.map((cartItem) => {
-
+    if(cartItem.id === id) {
+      
+    }
+    return cartItem
   })
 }
 function setupCartFunctionality() {
