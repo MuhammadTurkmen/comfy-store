@@ -80,7 +80,9 @@ function setupCartFunctionality() {
     const parent = e.target.parentElement
     const id = e.target.dataset.id
     const parentID = e.target.parentElement.dataset.id
-
+    // remove
+    // increase
+    // decrease
     displayCartItemCount()
     displayCartTotal()
     setStorageItem('cart', cart)
