@@ -47,7 +47,11 @@ function displayCartItemCount() {
   cartItemsDOM.textContent = amount
 }
 
-function displayCartTotal
+function displayCartTotal() {
+  let total = cart.reduce((total, cartItem) => {
+
+  },0)
+}
 const init = () => {
   
 }
