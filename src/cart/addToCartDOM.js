@@ -22,6 +22,7 @@ const addToCartDOM = ({id, name, price, image, amount}) => {
               </button>
             </div>
     `
+    cartItemsDOM.appendChild(article)
 };
 
 export default addToCartDOM;
