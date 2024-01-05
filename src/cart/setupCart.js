@@ -31,7 +31,9 @@ export const addToCart = (id) => {
     // update value
   }
   // add one to the item count
+  displayCartItemCount()
   // display cart totals
+  displayCartTotal()
   // set cart in local storage
   setStorageItem('cart', cart)
   // more stuff comming up
