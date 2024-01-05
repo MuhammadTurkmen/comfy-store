@@ -78,6 +78,7 @@ function setupCartFunctionality() {
   cartItemsDOM.addEventListener('click', function(e) {
     const element = e.target
     const parent = e.target.parentElement
+    const id = e.target.dataset.id
   })
 }
 const init = () => {
