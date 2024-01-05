@@ -30,6 +30,7 @@ export const addToCart = (id) => {
   else {
     // update value
     const amount = increaseAmount(id)
+    const items = cartItemsDOM.querySelectorAll('.cart-item-amount')
   }
   // add one to the item count
   displayCartItemCount()
