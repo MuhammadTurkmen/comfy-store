@@ -33,6 +33,7 @@ export const addToCart = (id) => {
   // add one to the item count
   // display cart totals
   // set cart in local storage
+  setStorageItem('cart', cart)
   // more stuff comming up
   openCart()
 };
