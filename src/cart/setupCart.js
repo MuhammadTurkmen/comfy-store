@@ -45,13 +45,13 @@ function displayCartItemCount() {
     return (total += cartItem.amount)
   },0)
   cartItemsDOM.textContent = amount
-  cartTotalDOM.textContent = `Total : ${formatPrice(total)}`
 }
 
 function displayCartTotal() {
   let total = cart.reduce((total, cartItem) => {
     return total += cartItem.price * cartItem.amount
   },0)
+  cartTotalDOM.textContent = `Total : ${formatPrice(total)}`
 }
 const init = () => {
   
