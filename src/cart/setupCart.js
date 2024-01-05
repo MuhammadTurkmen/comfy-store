@@ -42,7 +42,7 @@ export const addToCart = (id) => {
 
 function displayCartItemCount() {
   const amount = cart.reduce((total, cartItem) => {
-
+    return total
   },0)
 }
 const init = () => {
