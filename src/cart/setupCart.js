@@ -61,6 +61,7 @@ function displayCartItemsDOM() {
 }
 
 function increaseAmount(id) {
+  let newAmount 
   cart = cart.map((cartItem) => {
     if(cartItem.id === id) {
       cartItem = {...cartItem, amount: cartItem.amount + 1}
