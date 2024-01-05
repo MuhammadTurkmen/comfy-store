@@ -69,6 +69,7 @@ function increaseAmount(id) {
     }
     return cartItem
   })
+  return newAmount
 }
 function setupCartFunctionality() {
   
