@@ -60,6 +60,7 @@ const init = () => {
   displayCartTotal()
   // add all cart items to the dom
   // setup cart fanctionality
+  setupCartFunctionality()
 }
 
 init()
