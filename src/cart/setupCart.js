@@ -106,7 +106,7 @@ function setupCartFunctionality() {
       parent.nextElementSibling.textContent = newAmount
     }
     // decrease
-
+    if(parent.classList.contains('cart-item-decrease-btn'))
     displayCartItemCount()
     displayCartTotal()
     setStorageItem('cart', cart)
