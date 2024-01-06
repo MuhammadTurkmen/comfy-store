@@ -81,7 +81,7 @@ function decreaseAmount(id) {
   let newAmount 
   cart = cart.map((cartItem) => {
     if(cartItem.id === id) {
-      newAmount = cartItem.amount + 1
+      newAmount = cartItem.amount - 1
       cartItem = {...cartItem, amount: newAmount}
     }
     return cartItem
