@@ -113,7 +113,7 @@ function setupCartFunctionality() {
         parent.parentElement.parentElement.remove()
       }
       else {
-        parent.previousElementSibleng.textContent = newAmount
+        parent.previousElementSibling.textContent = newAmount
       }
     }
     displayCartItemCount()
