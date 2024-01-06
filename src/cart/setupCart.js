@@ -90,7 +90,7 @@ function setupCartFunctionality() {
       element.parentElement.parentElement.remove()
     }
     if(parent.classList.contains('cart-item-increase-btn')) { 
-      const newAmount = 
+      const newAmount = increaseAmount(parentID)
     }
     // increase
     // decrease
