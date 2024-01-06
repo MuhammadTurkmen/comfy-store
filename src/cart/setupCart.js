@@ -77,6 +77,17 @@ function increaseAmount(id) {
   })
   return newAmount
 }
+function decreaseAmount(id) {
+  let newAmount 
+  cart = cart.map((cartItem) => {
+    if(cartItem.id === id) {
+      newAmount = cartItem.amount + 1
+      cartItem = {...cartItem, amount: newAmount}
+    }
+    return cartItem
+  })
+  return newAmount
+}
 function setupCartFunctionality() {
   cartItemsDOM.addEventListener('click', function(e) {
     const element = e.target
@@ -95,6 +106,7 @@ function setupCartFunctionality() {
       parent.nextElementSibling.textContent = newAmount
     }
     // decrease
+
     displayCartItemCount()
     displayCartTotal()
     setStorageItem('cart', cart)
