@@ -110,6 +110,7 @@ function setupCartFunctionality() {
       const newAmount = decreaseAmount(parentID)
       if(newAmount === 0) {
         removeItem(id)
+        parent.parentElement.parentElement.remove()
       }
 
     }
