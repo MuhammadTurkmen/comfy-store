@@ -112,7 +112,9 @@ function setupCartFunctionality() {
         removeItem(id)
         parent.parentElement.parentElement.remove()
       }
-
+      else {
+        parent.previousElementSibleng.textContent = newAmount
+      }
     }
     displayCartItemCount()
     displayCartTotal()
